@@ -1,6 +1,10 @@
-# SQL Query Retriever with Google Gemini Pro LLM
+# AskSQL-Intelligent-SQL-Query-Generator
 
 This project provides a Streamlit web application that allows users to interact with an SQLite database by asking questions in English. The application utilizes Google Gemini Pro LLM to convert these questions into SQL queries, execute them on the database, and display the results.
+
+## Demo
+
+<a href="https://www.loom.com/share/126f6637de07465dbf88267b341cdfb6?sid=bfb65b01-bf84-43e2-9cc6-0a084962e771"> Link </a>
 
 ## Features
 
@@ -55,6 +59,10 @@ This project provides a Streamlit web application that allows users to interact 
     - `get_gemini_response(question, prompt)`: Uses Google Gemini Pro LLM to generate SQL queries based on the user’s question and prompt.
     - `read_sql_query(sql, db)`: Executes the generated SQL query on the SQLite database and retrieves the results.
     - `prompt_template`: Defines how the questions should be translated into SQL queries.
+ 
+## Future Work
+
+Customizing the UI to enter multiple tables and generate results where JOIN operations are required.
 
 ## Contributing
 
