@@ -1,4 +1,4 @@
-# AskSQL-Intelligent-SQL-Query-Generator
+# AskSQL: Use LLM to transform English questions into SQL queries and retrieve database results
 
 This project provides a Streamlit web application that allows users to interact with an SQLite database by asking questions in English. The application utilizes Google Gemini Pro LLM to convert these questions into SQL queries, execute them on the database, and display the results.
 
@@ -24,7 +24,7 @@ This project provides a Streamlit web application that allows users to interact 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Rahul28428/AskSQL-Intelligent-SQL-Query-Generator.git
+    git clone https://github.com/Rahul28428/AskSQL.git
     cd yourrepository
     ```
 
